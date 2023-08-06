@@ -81,7 +81,7 @@
 										<p style="text-align: center;">
 											<img src="images/ESP2.jpg" alt="Hydrate Formation Mechanism" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
 											<br>
-											<em>Electric Submersible Pump (Impeller structure)</em>
+											<em>Electric Submersible Pump (structure)</em>
 										</p>
 										
 										<h2>Types of Artificial Lifts:</h2>
@@ -111,18 +111,28 @@
 										<p>The Vogel's equation is commonly used to estimate the IPR for oil wells. It is based on the assumption that the reservoir behavior follows a hyperbolic curve, which is often observed in many oil reservoirs.</p>
 										<p>Vogel's equation is given by:</p>
 										\[Q = \frac{{Pwf - Pwf_{res}}}{{C1 + C2 \times (Pwf - Pwf_{res})}}\]
-										
-										<h3>IPR for Gas Wells:</h3>
+										<li>Q = Production rate (STB/day)</li>
+									<li>	Pwf = Wellhead flowing pressure (psi)</li>
+								<li>Pwf_res = Reservoir pressure at the wellbore depth (psi)</li>
+								
+							<li>	C1 and C2 = Reservoir constant parameters</li>
+							<br><h3>IPR for Gas Wells:</h3>
 										<p>For gas wells, the IPR equation is modified to account for the compressibility of the gas. The Modified Isothermal Gas Equation is often used to estimate the production rate:</p>
 										\[Q = \frac{{Pwf - Pwf_{res}}}{{C1 + C2 \times (Pwf - Pwf_{res})}} \times \left( Z \times T \times \frac{{A}}{{Pwf_{res} \times B + 1}} \right)\]
-										
+										<li>Z = Gas compressibility factor</li>
+										<li>T = Reservoir temperature (Rankine)</li>
+										<li>A and B = Gas flow constant parameters</li>
+										<li>A: The parameter A represents the coefficient associated with the gas flow rate. It is used to adjust the impact of gas compressibility on the production rate. A higher value of A indicates that gas compressibility has a more significant effect on the production rate.</li>
+
+											<li>B: The parameter B is the exponent associated with the pressure term in the denominator. It is used to control the relationship between pressure and production rate. A higher value of B indicates that pressure has a stronger influence on the production rate.</li>
+										<br>
 										<h3>IPR Curve:</h3>
 										<p>Using the equations above, multiple points of the IPR curve can be calculated by varying the flowing bottomhole pressure (Pwf) and determining the corresponding production rate (Q). These points are plotted on a graph to create the IPR curve.</p>
 										<p>The IPR curve typically shows an inverse relationship between BHP and production rate. As the bottomhole pressure decreases, the production rate increases until a point where the flow reaches its maximum potential. Beyond this point, further reduction in bottomhole pressure does not significantly increase the production rate, indicating that the well is producing at its maximum possible rate.</p>
 										<p>						
 										
 											<p style="text-align: center;">
-												<img src="images/IPR.png" alt="Hydrate Formation Mechanism" style="display: block; margin-left: auto; margin-right: auto;">
+												<img src="images/IPR.png" style="display: block; margin-left: auto; margin-right: auto;">
 												<br>
 												<em>IPR Curve</em>
 											</p>
@@ -152,7 +162,11 @@
 											<li>Monitoring and Control Systems: ESP systems often include monitoring and control systems to optimize performance and diagnose issues. Parameters such as motor temperature, pump pressure, and power consumption are monitored to assess the system's health and efficiency.</li><br>
 											<li>Safety Considerations: Safety is paramount in ESP design, especially considering downhole operations. Engineers must adhere to safety standards and procedures to ensure the well's integrity and the safety of personnel.</li><br>
 										</ul>
-										
+										<p style="text-align: center;">
+											<img src="images/ESPGIF.gif" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+											<br>
+											<em>Electric Submersible Pump Mechanism </em>
+										</p>
 										<h2>ESP Operation Conditions:</h2>
 										<p>An ESP operates in challenging downhole conditions, and its performance depends on several factors:</p>
 										<ul>
