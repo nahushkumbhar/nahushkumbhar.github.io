@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Nahush Kumbhar</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			body {
+				text-align: center;
+			}
+			p {
+				text-align: justify;
+				margin-bottom: 1em; /* Adjust the value to increase or decrease the space between paragraphs */
+			}
+			#main {
+				margin: 0 auto;
+				max-width: 800px; /* Adjust the value to set the maximum width of the content */
+			}
+			.inner {
+				text-align: left;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header" class="alt">
+				<a href="index.html" class="logo"><span>Nahush Kumbhar</span></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Aboutme.html">About me</a></li>
+					<li><a href="cv.html">CV</a></li>
+					<li><a href="landing2.html">Internships and Projects</a></li>
+					<li><a href="Mynotes.html">My Notes</a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main" class="alt">
+
+				<!-- One -->
+				<section id="one">
+
+					<div class="inner">
+						<header class="major">
+							<h1>My Notes</h1>
+						</header>
+						<section>
+							<header class="major">
+								<h2>Simulating a Centrifugal Pump Using SimScale</h2>
+							</header>
+							<ol>
+								<li><strong>Geometry Preparation:</strong> Create a detailed 3D model of the centrifugal pump using CAD software.</li>
+								<li><strong>Import Geometry to SimScale:</strong> Access the 'Geometries' tab in your SimScale project workspace to import the geometry.</li>
+								<br><p style="text-align: center;">
+									<img src="images/Mesh.png" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+									<br><em>Import Geometry and Set Meshing</em>
+								</p>
+								<li><strong>Mesh Generation:</strong> Define meshing parameters and access meshing tools under the 'Mesh Creator' tab.</li>
+								<li><strong>Simulation Setup:</strong> Specify boundary conditions and fluid properties:
+									<ul>
+										<li>Inlet conditions: Set the inlet flow rate, temperature, and pressure according to the operational parameters.</li>
+										<li>Outlet conditions: Specify the outlet pressure or mass flow rate.</li>
+										<li>Material properties: Define the fluid properties of the working fluid (e.g., water) and select an appropriate turbulence model (e.g., k-omega SST).</li>
+									</ul>
+									<br><p style="text-align: center;">
+										<img src="images/Boundary.png" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
+										<br><em>Define Boundary Conditions</em>
+									</p>
+								</li>
+								<li><strong>Boundary Conditions:</strong> Assign boundary conditions such as velocity inlet and pressure outlet to the pump geometry.</li>
+								<li><strong>Simulation Run:</strong> Initiate the simulation run by clicking the 'Start' button in the simulation setup interface.</li>
+								<br><p style="text-align: center;">
+									<img src="images/Simulationrun.png" style="display: block; margin-left: auto; margin-right: auto; width:100%;">
+									<br><em>Results (You can view different characteristics of the study based on filters)</em>
+								</p>
+								<li><strong>Result Analysis:</strong> Analyze pressure distribution, velocity contours, and efficiency based on the simulated data.</li>
+							</ol>
+						</section>
+					</div>
+					
+				</section>
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+				</div>
+			</footer>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+		</body>
+	</html>
