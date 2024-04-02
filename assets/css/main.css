@@ -3427,10 +3427,10 @@ input, select, textarea {
 		}
 
 		#banner > .inner {
-			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
-			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
-			-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
-			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
+			-moz-transition: opacity 1.5s ease, -moz-transform 0.15s ease-out, -moz-filter 0.15s ease, -webkit-filter 0.15s ease;
+			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.15s ease-out, -webkit-filter 0.15s ease, -webkit-filter 0.15s ease;
+			-ms-transition: opacity 1.5s ease, -ms-transform 0.15s ease-out, -ms-filter 0.15s ease, -webkit-filter 0.15s ease;
+			transition: opacity 1.5s ease, transform 0.15s ease-out, filter 0.15s ease, -webkit-filter 0.15s ease;
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
@@ -3743,10 +3743,10 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		-moz-transition: -moz-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
-		-webkit-transition: -webkit-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
-		-ms-transition: -ms-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
-		transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
+		-moz-transition: -moz-filter 0.1s ease, -webkit-filter 0.15s ease, opacity 0.15s ease-out;
+		-webkit-transition: -webkit-filter 0.15s ease, -webkit-filter 0.15s ease, opacity 0.15s ease-out;
+		-ms-transition: -ms-filter 0.15s ease, -webkit-filter 0.15s ease, opacity 0.375s ease-out;
+		transition: filter 0.15s ease, -webkit-filter 0.15s ease, opacity 0.375s ease-out;
 		padding-top: 3.25em;
 	}
 
