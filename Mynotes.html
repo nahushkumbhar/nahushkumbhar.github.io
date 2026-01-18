@@ -16,40 +16,14 @@
 		
 	
 			<style>
-        /* Fix for Header Overflow */
-#header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100% !important;
-    max-width: 100vw;
-    padding: 0 1.5em; /* Adds safe space on sides */
-    box-sizing: border-box;
-}
 
-#header .logo {
-    white-space: nowrap; /* Keeps name on one line */
-    overflow: hidden;
-    text-overflow: ellipsis; /* Adds ... if name is too long for tiny screens */
-    max-width: 70%; /* Leaves room for the Menu button */
-}
-
-/* Specific Mobile Header Fix */
-@media screen and (max-width: 480px) {
-    #header .logo span {
-        font-size: 0.8em; /* Shrinks text slightly on very small phones */
+				@media screen and (max-width: 480px) {
+    .spotlights h3 {
+        font-size: 1.2rem; /* Shrinks the title size on phones */
+        line-height: 1.4;
+        word-wrap: break-word;
     }
-    
-    #header nav {
-        right: 0.5em;
-    }
-}
-
-/* Prevents the entire wrapper from horizontal scrolling */
-#wrapper {
-    overflow-x: hidden !important;
-    width: 100%;
-}
+                   }
     </style>
 	</head>
 	<body class="is-preload">
