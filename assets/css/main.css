@@ -82,7 +82,7 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 100%) {
 
 		html, body {
 			min-width: 320px;
@@ -216,7 +216,7 @@ input, select, textarea {
 		font-size: 0.7em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 100%) {
 
 		h1 {
 			font-size: 2em;
