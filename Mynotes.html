@@ -16,23 +16,62 @@
 		
 	
 			<style>
-				/* Increase the width of the main container */
-				#main {
-					width: 90%; /* Adjust the percentage as needed */
-					margin: 0 auto; /* Center the main container */
-				}
-			
-	
-			</style>
+        /* Responsive Fix: Only apply 90% width on large screens */
+        @media screen and (min-width: 737px) {
+            #main {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        /* Mobile Fix: Ensure content stays within the screen width */
+        @media screen and (max-width: 736px) {
+            #main {
+                width: 100% !important;
+                padding: 0 10px;
+            }
+            /* Prevents long titles from pushing the screen width */
+            h1, h2, h3 {
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+            }
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 1em;
+        }
+    </style>
 			
 		</head>
 		
 		<style>
-			p {
-				text-align: justify;
-				margin-bottom: 1em; /* Adjust the value to increase or decrease the space between paragraphs */
-			}
-		</style>
+        /* Responsive Fix: Only apply 90% width on large screens */
+        @media screen and (min-width: 737px) {
+            #main {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        /* Mobile Fix: Ensure content stays within the screen width */
+        @media screen and (max-width: 736px) {
+            #main {
+                width: 100% !important;
+                padding: 0 10px;
+            }
+            /* Prevents long titles from pushing the screen width */
+            h1, h2, h3 {
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+            }
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 1em;
+        }
+    </style>
 	</head>
 	<body class="is-preload">
 
